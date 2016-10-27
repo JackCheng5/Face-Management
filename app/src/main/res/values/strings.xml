@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FaceManagement</string>
+
+
+    <string name="pullup_to_load">Pull up for load more</string>
+    <string name="pull_to_refresh">Pull for refresh</string>
+    <string name="refresh_succeed">Refreshed success</string>
+    <string name="refresh_fail">Refreshed failure</string>
+
+
+    <string name="head">这里是HeadView</string>
+
+    <string name="release_to_refresh">Refresh immediate release</string>
+    <string name="refreshing">Refreshing...</string>
+
+    <string name="release_to_load">Release immediate loading</string>
+    <string name="loading">Loading....</string>
+    <string name="load_succeed">Loaded Success</string>
+    <string name="load_fail">Loaded Failure</string>
+
+</resources>

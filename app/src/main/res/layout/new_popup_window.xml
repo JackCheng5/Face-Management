@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fdf8f8"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        >
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2.25dp"
+            android:background="#c8114eb4"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:background="#b4084b8e"
+            android:textSize="20sp"
+            android:textColor="#dedddd"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Are you sure to delete it ?"
+            android:textAllCaps="false"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/tv_popup_title"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="#797878"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:textColor="#de5555"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/new_popup_style"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/tv_popup_confirm"
+
+            android:layout_centerHorizontal="true"
+            android:text="Why not!!"
+            android:textAllCaps="false"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="#797878"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:textColor="#c8ffffff"
+            android:background="@drawable/new_popup_style"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:id="@+id/tv_popup_back"
+            android:layout_centerHorizontal="true"
+            android:text="Still think and go back!"
+            android:textAllCaps="false"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.7dp"
+            android:background="#797878"
+            android:layout_centerHorizontal="true"/>
+    </LinearLayout>
+
+</RelativeLayout>

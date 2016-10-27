@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="146dp"
+        android:layout_height="91dp"
+        android:background="#a3a0a0"
+        android:id="@+id/menu_rl"
+
+        >
+           <TextView
+               android:id="@+id/tv_group_menu_home"
+               android:layout_width="match_parent"
+               android:layout_height="45dp"
+               android:text="LOGOUT"
+               android:background="@drawable/new_popup_meun_style"
+               android:textSize="16sp"
+               android:gravity="center_vertical"
+               android:padding="10dp"
+               android:textColor="#5aa0b6" />
+           <TextView
+               android:layout_below="@id/tv_group_menu_home"
+               android:layout_width="match_parent"
+               android:layout_height="0.5dp"
+               android:background="#181717"
+               />
+           <TextView
+               android:padding="10dp"
+               android:id="@+id/tv_group_menu_key"
+               android:layout_width="match_parent"
+               android:layout_height="45dp"
+               android:text="KEY"
+               android:background="@drawable/new_popup_meun_style"
+               android:textSize="16sp"
+               android:gravity="center_vertical"
+               android:textColor="#5aa0b6"
+               android:layout_alignParentBottom="true"
+               />
+    </RelativeLayout>
+</RelativeLayout>

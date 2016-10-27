@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#e9e0e2"
+    >
+
+
+    <RelativeLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:background="#e9e0e2"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:textColor="#101010"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:text="ADD PERSON"
+            android:textSize="30sp"
+            android:id="@+id/tv_add_person_title"
+            android:gravity="center"
+
+            />
+        <EditText
+            android:padding="10dp"
+            android:layout_below="@id/tv_add_person_title"
+            android:textCursorDrawable="@drawable/item_cursor_color"
+            android:id="@+id/et_get_person_name"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="[person-name]"
+            android:textColorHint="#b4949b97"
+            android:background="@drawable/item_alterview_style"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            >
+            <TextView
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="#b6ada2"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="45dp"
+                android:text="CANCEL"
+                android:id="@+id/bt_add_person_cancel"
+                android:background="@drawable/new_cancel_confirm_style"
+                />
+            <TextView
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="0.4"
+                android:layout_height="44dp" />
+            <TextView
+                android:background="@drawable/new_cancel_confirm_style"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1.1"
+                android:textColor="#484b4b"
+                android:layout_height="45dp"
+                android:text="CONFIRM"
+                android:id="@+id/bt_add_person_confirm"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

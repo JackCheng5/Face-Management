@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e9e0e2"
+    >
+
+    <RelativeLayout
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:background="#e9e0e2"
+        android:orientation="vertical"
+
+        >
+            <TextView
+                android:textColor="#101010"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:text="ADD GROUP"
+                android:textSize="30sp"
+                android:id="@+id/tv_add_group_title"
+                android:gravity="center" />
+
+            <EditText
+
+                android:padding="10dp"
+                android:layout_below="@id/tv_add_group_title"
+                android:textCursorDrawable="@drawable/item_cursor_color"
+                android:id="@+id/et_get_group_name"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="[group-Name]..."
+                android:textColorHint="#b4949b97"
+                android:background="@drawable/item_alterview_style"
+                android:layout_marginTop="15dp"
+
+                />
+
+            <EditText
+                android:padding="10dp"
+                android:layout_below="@id/et_get_group_name"
+                android:textCursorDrawable="@drawable/item_cursor_color"
+
+                android:id="@+id/et_get_group_id"
+                android:textColorHint="#b4949b97"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="[group-Id]..."
+                android:background="@drawable/item_alterview_style"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="0.2dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/et_get_group_id"
+            android:layout_marginTop="14dp"
+            >
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="140dp"
+                android:layout_height="45dp"
+                android:layout_centerVertical="true"
+                android:text="CANCEL"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:textColor="#b6ada2"
+                android:id="@+id/bt_add_group_cancel"
+                android:background="@drawable/new_cancel_confirm_style"
+                />
+            <TextView
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:layout_width="140dp"
+                android:layout_height="45dp"
+                android:textColor="#484b4b"
+                android:layout_marginRight="10dp"
+                android:text="CONFIRM"
+                android:id="@+id/bt_add_group_confirm"
+                android:background="@drawable/new_cancel_confirm_style"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

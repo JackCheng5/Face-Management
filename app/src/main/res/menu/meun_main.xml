@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <item
+        android:id="@+id/log_out"
+        android:title="LOGOUT"
+        app:showAsAction="never"/>
+  <item
+    android:id="@+id/user_key"
+    android:title="KEY"
+    app:showAsAction="never"/>
+
+
+</menu>
